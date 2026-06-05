@@ -14,7 +14,7 @@ const services: Service[] = [
     name: "Architecture review",
     shape: "One to two weeks. Diagnostic engagement.",
     goodFor:
-      "Founders who have a working prototype and need a senior read on what to build next, what to throw away, and which infrastructure choices are about to hurt them.",
+      "Founders or teams with a working prototype who need a senior read on what to build next, what to throw away, and which infrastructure choices are about to hurt them.",
     outcome:
       "A written architecture document covering data model, agent topology, tool boundaries, eval strategy, infrastructure choices, and a sequenced backlog. Optional working sessions to align the team.",
   },
@@ -23,7 +23,7 @@ const services: Service[] = [
     name: "Build sprint",
     shape: "Four to six weeks, fixed scope.",
     goodFor:
-      "Founders who need a specific agent, integration, or piece of infrastructure shipped to production. Scope is locked at the start; we own delivery.",
+      "Founders or teams that need a specific agent, integration, or piece of infrastructure shipped to production. Scope is locked at the start; we own delivery.",
     outcome:
       "Production code, deployed and monitored, with the eval and observability scaffolding the team needs to operate it. Handover documentation written for the engineer who will own it next.",
   },
@@ -32,7 +32,7 @@ const services: Service[] = [
     name: "Fractional CTO retainer",
     shape: "Monthly retainer, three-month minimum.",
     goodFor:
-      "Founders who need senior engineering leadership without yet being able to hire one full time. Sets technical direction, runs architecture review, builds the early team, and stays close to the code.",
+      "Founders and growing teams that need senior engineering leadership without yet being able to hire one full time. Sets technical direction, runs architecture review, builds the team, and stays close to the code.",
     outcome:
       "A small engineering organization with a clear technical compass: architecture decisions documented, hires ramping, agent systems running in production, and the founder freed to focus on product and customers.",
   },
@@ -48,7 +48,7 @@ const Services = () => {
             Three engagement shapes, one bar.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Most founders start with a review, move into a sprint, and grow into a retainer.
+            Most clients start with a review, move into a sprint, and grow into a retainer.
             Each engagement stands alone; together they cover the arc from &ldquo;is this the
             right architecture&rdquo; to &ldquo;ship it and run it.&rdquo;
           </p>

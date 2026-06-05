@@ -26,12 +26,12 @@ const Home = () => {
             Synluma · Fractional CTO &amp; agentic engineering
           </p>
           <h1 className="text-4xl md:text-6xl font-semibold leading-[1.05] tracking-tight">
-            Senior engineering for founders shipping their first agent.
+            Production engineering for teams shipping agents.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-            Synluma works with seed-stage AI founders who need to put a production-grade agentic
-            product in front of customers in 60 to 90 days, without the months of hiring it would
-            normally take.
+            Synluma works with AI founders and growing teams who need to put production-grade
+            agentic systems in front of real customers — in weeks instead of quarters, without
+            the months of hiring it would normally take.
           </p>
 
           <div className="mt-10 flex items-center gap-4">

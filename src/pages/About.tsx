@@ -7,12 +7,12 @@ const About = () => {
         <div className="container mx-auto px-4 max-w-3xl pt-20 pb-12 md:pt-24 md:pb-16">
           <p className="text-xs uppercase tracking-[0.18em] text-muted-foreground mb-6">About</p>
           <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-[1.1]">
-            Synluma is an engineering practice for AI founders.
+            Synluma is an engineering practice for AI teams.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            We work with a small number of seed and pre-seed AI startups at a time. The
-            engagements are senior, hands-on, and short enough that the founder is still in the
-            room when the code is written.
+            We work with a small number of AI founders and growing teams at a time. The
+            engagements are senior, hands-on, and short enough that whoever owns the product is
+            still in the room when the code is written.
           </p>
         </div>
       </section>
@@ -22,10 +22,11 @@ const About = () => {
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Who we work with</h2>
           <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              The typical Synluma engagement is a venture-backed founder, often non-technical
-              or single-technical, who needs a production-grade agentic product in front of
-              customers in the next quarter. The deck is written; the hard part is now the
-              build.
+              The typical Synluma engagement is a venture-backed AI founder shipping their
+              first production system, or a growing team adding agentic capability to an
+              existing product. Either way the constraint is the same: a real deadline, a
+              technically ambitious roadmap, and not enough senior engineering bandwidth in
+              house.
             </p>
             <p>
               We are not the right team for enterprise digital transformation, generic web app
