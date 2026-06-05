@@ -29,9 +29,10 @@ const Home = () => {
             Production engineering for teams shipping agents.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-            Synluma works with AI founders and growing teams who need to put production-grade
-            agentic systems in front of real customers — in weeks instead of quarters, without
-            the months of hiring it would normally take.
+            Synluma works with AI teams shipping production agents — whether it&apos;s the first
+            one for a seed-stage product, the next one for a growing team, or putting an
+            established company&apos;s proprietary data to work. Senior engineering in weeks
+            instead of quarters, without the months of hiring it would normally take.
           </p>
 
           <div className="mt-10 flex items-center gap-4">

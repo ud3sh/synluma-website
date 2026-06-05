@@ -22,14 +22,15 @@ const About = () => {
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Who we work with</h2>
           <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              The typical Synluma engagement is a venture-backed AI founder shipping their
-              first production system, or a growing team adding agentic capability to an
-              existing product. Either way the constraint is the same: a real deadline, a
-              technically ambitious roadmap, and not enough senior engineering bandwidth in
+              Synluma engagements come in three shapes: an AI founder shipping their first
+              production system, a growing team adding agentic capability to an existing
+              product, or an established company turning proprietary data into agents that
+              ship into production. The constraint is the same in each case: a real deadline,
+              a technically ambitious roadmap, and not enough senior engineering bandwidth in
               house.
             </p>
             <p>
-              We are not the right team for enterprise digital transformation, generic web app
+              We are not the right team for slide-deck transformation, generic web app
               development, or projects without a clear product owner. We&apos;re a good fit when
               the work is technically ambitious, the deadline is real, and the team is small
               enough that a senior engineer in the room actually moves the needle.
