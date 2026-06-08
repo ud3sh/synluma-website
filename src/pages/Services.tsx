@@ -10,9 +10,9 @@ type Service = {
 
 const services: Service[] = [
   {
-    id: "sprint",
-    name: "Build sprint",
-    shape: "Four to six weeks, fixed scope.",
+    id: "build",
+    name: "Production build",
+    shape: "Fixed scope, owned delivery.",
     goodFor:
       "Founders or teams that need a specific agent, integration, or piece of infrastructure shipped to production. Scope is locked at the start; we own delivery.",
     outcome:
@@ -21,7 +21,7 @@ const services: Service[] = [
   {
     id: "retainer",
     name: "Fractional CTO retainer",
-    shape: "Monthly retainer, three-month minimum.",
+    shape: "Ongoing engagement.",
     goodFor:
       "Founders and growing teams that need engineering leadership without yet being able to hire one full time. Sets technical direction, runs architecture review, builds the team, and stays close to the code.",
     outcome:
@@ -30,7 +30,7 @@ const services: Service[] = [
   {
     id: "audit",
     name: "Architecture review",
-    shape: "One to two weeks. Diagnostic engagement.",
+    shape: "Diagnostic engagement.",
     goodFor:
       "Founders or teams with a working prototype who need a production-grade read on what to build next, what to discard, and which infrastructure decisions will not scale.",
     outcome:
@@ -48,7 +48,7 @@ const Services = () => {
             Three engagement shapes, one bar.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Most engagements are sprints or retainers; an architecture review is the right
+            Most engagements are builds or retainers; an architecture review is the right
             starting point when a team needs a diagnostic read before committing. Each
             engagement stands alone; together they cover the arc from &ldquo;ship it and run
             it&rdquo; to &ldquo;is this the right architecture.&rdquo;

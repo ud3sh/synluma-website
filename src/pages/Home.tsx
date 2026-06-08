@@ -4,16 +4,16 @@ import { ArrowRight } from "lucide-react";
 
 const services = [
   {
-    title: "Build sprint",
-    blurb: "Four to six weeks, fixed scope. Ship a production agent or piece of infrastructure.",
+    title: "Production build",
+    blurb: "Fixed scope, owned delivery. Ship a production agent or piece of infrastructure built to hold under real traffic.",
   },
   {
     title: "Fractional CTO",
-    blurb: "Monthly retainer, three-month minimum. Architecture, hiring, hands-on when needed.",
+    blurb: "Ongoing retainer. Architecture, hiring, and hands-on engineering when it matters.",
   },
   {
     title: "Architecture review",
-    blurb: "One to two weeks. A production-grade read on what to build, in what order, on what infra.",
+    blurb: "Diagnostic engagement. A production-grade read on what to build, in what order, on what infrastructure.",
   },
 ];
 
@@ -31,8 +31,8 @@ const Home = () => {
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
             Synluma helps startups ship their first production agent, growing businesses add
             agentic capability to existing products, and established companies turn
-            proprietary data into agents. Production engineering in weeks instead of quarters,
-            without the months of hiring it would normally take.
+            proprietary data into agents. Production engineering embedded with your team,
+            without the overhead of a full-time hire.
           </p>
 
           <div className="mt-10 flex items-center gap-4">
