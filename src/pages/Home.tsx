@@ -4,16 +4,16 @@ import { ArrowRight } from "lucide-react";
 
 const services = [
   {
-    title: "Architecture review",
-    blurb: "One to two weeks. A senior read on what to build, in what order, on what infra.",
-  },
-  {
     title: "Build sprint",
-    blurb: "Four to six weeks, fixed scope. Ship a production agent or piece of infra.",
+    blurb: "Four to six weeks, fixed scope. Ship a production agent or piece of infrastructure.",
   },
   {
     title: "Fractional CTO",
     blurb: "Monthly retainer, three-month minimum. Architecture, hiring, hands-on when needed.",
+  },
+  {
+    title: "Architecture review",
+    blurb: "One to two weeks. A production-grade read on what to build, in what order, on what infra.",
   },
 ];
 
@@ -29,10 +29,10 @@ const Home = () => {
             Production engineering for teams shipping agents.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
-            Synluma works with AI teams shipping production agents — whether it&apos;s the first
-            one for a seed-stage product, the next one for a growing team, or putting an
-            established company&apos;s proprietary data to work. Senior engineering in weeks
-            instead of quarters, without the months of hiring it would normally take.
+            Synluma works with AI teams shipping production agents: startups launching their
+            first, growing businesses adding agentic capability to an existing product, and
+            established companies turning proprietary data into agents. Production engineering
+            in weeks instead of quarters, without the months of hiring it would normally take.
           </p>
 
           <div className="mt-10 flex items-center gap-4">
@@ -87,9 +87,9 @@ const Home = () => {
               CRUD apps last year.
             </p>
             <p>
-              We bring the operating experience of senior product engineers who have lived through
-              real production incidents and the design taste to know which complexity is worth the
-              cost.
+              Every engineer on the team has shipped production-grade systems and managed the
+              incidents that follow. We bring that operating experience, along with the
+              design taste to recognize which complexity is worth its cost.
             </p>
           </div>
           <div className="mt-8">

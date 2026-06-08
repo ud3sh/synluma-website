@@ -11,8 +11,8 @@ const About = () => {
           </h1>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
             We work with a small number of AI founders and growing teams at a time. The
-            engagements are senior, hands-on, and short enough that whoever owns the product is
-            still in the room when the code is written.
+            engagements are hands-on and short enough that whoever owns the product is still
+            in the room when the code is written.
           </p>
         </div>
       </section>
@@ -22,18 +22,17 @@ const About = () => {
           <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Who we work with</h2>
           <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Synluma engagements come in three shapes: an AI founder shipping their first
-              production system, a growing team adding agentic capability to an existing
+              Synluma engagements come in three shapes: a startup shipping their first
+              production agent, a growing business adding agentic capability to an existing
               product, or an established company turning proprietary data into agents that
               ship into production. The constraint is the same in each case: a real deadline,
-              a technically ambitious roadmap, and not enough senior engineering bandwidth in
-              house.
+              a technically ambitious roadmap, and not enough engineering bandwidth in house.
             </p>
             <p>
               We are not the right team for slide-deck transformation, generic web app
-              development, or projects without a clear product owner. We&apos;re a good fit when
+              development, or projects without a clear product owner. We are a good fit when
               the work is technically ambitious, the deadline is real, and the team is small
-              enough that a senior engineer in the room actually moves the needle.
+              enough for hands-on engineering to shape the outcome.
             </p>
           </div>
         </div>
@@ -45,9 +44,10 @@ const About = () => {
           <ul className="mt-6 space-y-5 text-muted-foreground leading-relaxed">
             <li className="pl-6 relative">
               <span className="absolute left-0 top-2 w-2 h-2 rounded-full bg-primary" aria-hidden="true" />
-              <span className="text-foreground font-medium">Senior by default.</span>{" "}
-              Every engagement is led by a senior engineer who has shipped production agents
-              before. No junior delivery layer.
+              <span className="text-foreground font-medium">Production-tested by default.</span>{" "}
+              Every engineer on the team has shipped production-grade systems before.
+              Engagements are staffed by engineers who have built and operated systems
+              comparable to yours.
             </li>
             <li className="pl-6 relative">
               <span className="absolute left-0 top-2 w-2 h-2 rounded-full bg-primary" aria-hidden="true" />
@@ -73,19 +73,11 @@ const About = () => {
 
       <section className="border-t border-border">
         <div className="container mx-auto px-4 max-w-3xl py-12 md:py-16">
-          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Founder</h2>
-          <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
-            <p>
-              {/* TODO(udesh): replace with actual founder bio. */}
-              Synluma is led by Udesh Senaratne, a senior engineer with a background in shipping
-              production systems for early-stage companies. Past work spans agentic systems,
-              developer infrastructure, and product engineering at venture-backed startups.
-            </p>
-            <p>
-              Named case studies and references are available on request once an engagement
-              starts. Public references will be added here as permissions are granted.
-            </p>
-          </div>
+          <h2 className="text-2xl md:text-3xl font-semibold tracking-tight">References</h2>
+          <p className="mt-6 text-muted-foreground leading-relaxed">
+            Named case studies and references are available on request once an engagement
+            starts. Public references will be added here as permissions are granted.
+          </p>
         </div>
       </section>
 

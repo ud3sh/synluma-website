@@ -10,15 +10,6 @@ type Service = {
 
 const services: Service[] = [
   {
-    id: "audit",
-    name: "Architecture review",
-    shape: "One to two weeks. Diagnostic engagement.",
-    goodFor:
-      "Founders or teams with a working prototype who need a senior read on what to build next, what to throw away, and which infrastructure choices are about to hurt them.",
-    outcome:
-      "A written architecture document covering data model, agent topology, tool boundaries, eval strategy, infrastructure choices, and a sequenced backlog. Optional working sessions to align the team.",
-  },
-  {
     id: "sprint",
     name: "Build sprint",
     shape: "Four to six weeks, fixed scope.",
@@ -32,9 +23,18 @@ const services: Service[] = [
     name: "Fractional CTO retainer",
     shape: "Monthly retainer, three-month minimum.",
     goodFor:
-      "Founders and growing teams that need senior engineering leadership without yet being able to hire one full time. Sets technical direction, runs architecture review, builds the team, and stays close to the code.",
+      "Founders and growing teams that need engineering leadership without yet being able to hire one full time. Sets technical direction, runs architecture review, builds the team, and stays close to the code.",
     outcome:
       "A small engineering organization with a clear technical compass: architecture decisions documented, hires ramping, agent systems running in production, and the founder freed to focus on product and customers.",
+  },
+  {
+    id: "audit",
+    name: "Architecture review",
+    shape: "One to two weeks. Diagnostic engagement.",
+    goodFor:
+      "Founders or teams with a working prototype who need a production-grade read on what to build next, what to discard, and which infrastructure decisions will not scale.",
+    outcome:
+      "A written architecture document covering data model, agent topology, tool boundaries, eval strategy, infrastructure choices, and a sequenced backlog. Optional working sessions to align the team.",
   },
 ];
 
@@ -48,9 +48,10 @@ const Services = () => {
             Three engagement shapes, one bar.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed">
-            Most clients start with a review, move into a sprint, and grow into a retainer.
-            Each engagement stands alone; together they cover the arc from &ldquo;is this the
-            right architecture&rdquo; to &ldquo;ship it and run it.&rdquo;
+            Most engagements are sprints or retainers; an architecture review is the right
+            starting point when a team needs a diagnostic read before committing. Each
+            engagement stands alone; together they cover the arc from &ldquo;ship it and run
+            it&rdquo; to &ldquo;is this the right architecture.&rdquo;
           </p>
         </div>
       </section>
